@@ -39,8 +39,8 @@
     content: counter(step-counter);
     margin-right: 5px;
     font-size: 80%;
-    background-color: rgb(0,0,0);
-    color: white;
+    background-color: $ol_li_background;
+    color: $ol_li_foreground;
     font-weight: bold;
     padding: 3px 8px;
     border-radius: 3px;
@@ -52,5 +52,5 @@
 }
 
 #general-info {
-  border-right: 1px solid black;
+  border-right: 1px solid $gen_info_right_border;
 }

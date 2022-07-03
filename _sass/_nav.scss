@@ -1,18 +1,18 @@
 @mixin link {
   //font-variant: small-caps;
   a {
-    color: rgb(30,3,45);
+    color: $nav_link;
     padding: 0px 5px 0px 5px;
   }
 
   a:hover {
     text-decoration: none;
-    color: rgb(30,3,45);
-    border-bottom: 2px solid rgb(183,100,229);
+    color: $nav_hover_link;
+    border-bottom: 2px solid $nav_border_bottom_link_hover;
   }
 
   a.selected {
-    border-bottom: 2px solid rgb(78,15,112);
+    border-bottom: 2px solid $nav_border_bottom_link_selected;
   }
 }
 
@@ -30,7 +30,7 @@ nav {
   height: 55px;
   padding-bottom: 10px;
   font-size: .8em;
-  background: #EEE9F2;
+  background: $background;
   z-index: 2;
   position: fixed;
 
@@ -59,7 +59,7 @@ footer {
   bottom: 0px;
   height: 35px;
   width: 100%;
-  background: #EEE9F2;
+  background: $background;
   line-height: 35px;
 
   ul {
@@ -77,7 +77,7 @@ footer {
     display: inline;
   }
   ul li a {
-    color: rgb(78,15,112);
+    color: $ul_li_link;
   }
 }
 
@@ -94,7 +94,7 @@ footer {
     }
 
     div a {
-      border-bottom: 2px solid rgb(183,100,229);
+      border-bottom: 2px solid $nav_border_bottom_link_hover;
     }
 
     ul {
