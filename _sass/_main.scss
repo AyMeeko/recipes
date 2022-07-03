@@ -1,0 +1,52 @@
+body {
+  margin-bottom: 40px;
+  font-family: "Lato", sans-serif;
+  background-color: #EEE9F2;
+}
+
+ul li {
+  list-style: none;
+}
+
+.with-nav {
+  padding-top: 65px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(78,15,112);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(183,100,229);
+}
+
+p {
+  line-height: 1.4em;
+  font-size: 1em;
+  color: rgb(30,3,45);
+}
+
+hr {
+  border-top: 1px solid rgb(183,100,229);
+  margin: 2rem;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#landing-page {
+  font-size: 2em;
+  img {
+    width: 60%;
+  }
+}
+
+.columns {
+  margin-bottom: 30px;
+}

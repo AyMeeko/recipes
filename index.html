@@ -1,0 +1,13 @@
+---
+layout: default
+title: LoreaGivesGoodHair
+selected_nav: "/"
+---
+<ul id="recipes-archive" class="posts recipe">
+  {% for post in site.categories.frontpage %}
+  <li class="row">
+    {% include post_template.html r=post %}
+  </li>
+  <hr>
+  {% endfor %}
+</ul>
