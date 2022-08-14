@@ -7,6 +7,6 @@ selected_nav: /main_courses/
 
 <ul id="recipes-archive" class="posts recipe">
   {% for post in site.categories.main_courses %}
-    <div>» <a href="{{ post.url | absolute_url }}">{{ post.title }}</a></div>
+    <div>» <a href="{{ post.url | absolute_url }}">{{ post.name }}</a></div>
   {% endfor %}
 </ul>
