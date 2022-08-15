@@ -8,11 +8,11 @@ words_of_wisdom:
   - I, personally, am not a ranch fan, so I altered the seasoning from the original author's recipe. You're welcome to follow the recipe as provided in the link above if you do like ranch flavor.
   - Through trial and error, I've found that the best way to cook this recipe is using the pot-in-pot method. You're welcome to follow the recipe as outlined below, but I've found the original recipe to be slightly watery and messy. Using the pot-in-pot method, I add the water to the outer pot (so the cooker can get up to pressure) but use only the chicken, cream cheese, and seasoning in the inner pot. The chicken tends to release moisture while it cooks (especially if you forget to thaw your chicken, which I have been guilty of on occasion), which gives the finished dish the perfect consistency.
 ingredients:
-  - 1/2 cup water or low-sodium chicken broth
+  - 1/2 Cup water or low-sodium chicken broth
   - 2 lbs boneless, skinless, chicken breasts
-  - 2 tbsp rotissere chicken seasoning
+  - 2 Tbsp rotissere chicken seasoning
   - 8 oz cream cheese, room temperature and cut into chunks
-  - 1 cup freshly shredded cheddar cheese
+  - 1 Cup freshly shredded cheddar cheese
   - 8 slices thick-cut bacon, chopped
   - (optional) 3 green onions, chopped
   - salt, to taste
