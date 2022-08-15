@@ -10,7 +10,7 @@ ingredients:
   - 1/4 Cup sour cream
   - 1 1/2 tsp fine sea salt
   - (optional) 2 Tbsp chives, finely chopped for garnish
- words_of_wisdom:
+words_of_wisdom:
    - Honestly, this recipe is the first I've encountered in a while where I have no adjustmets or advice. These are absolutely the best mashed potatoes I've ever had and it's a simple, straightforward recipe!
 instructions:
   - Peel potatoes and cut into approximately same sized chunks (typically halved or quartered, depending on potato size). While preparing, place potato chunks in a bowl of cold water to reduce startch and preven discoloration.
