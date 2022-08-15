@@ -3,18 +3,18 @@ name: Chocolate Chip Cookies
 image: /assets/images/chocolatechipcookies.png
 date: "2022-07-02"
 ingredients:
-  - 1/2 cup unsalted butter, softened (113g)
-  - 1/2 cup white sugar (100g)
-  - 1/2 cup brown sugar, packed (110g)
+  - 1/2 Cup unsalted butter, softened (113g)
+  - 1/2 Cup white sugar (100g)
+  - 1/2 Cup brown sugar, packed (110g)
   - 1 egg
-  - 1 tsp. vanilla extract
-  - 1/2 tsp. baking soda
-  - 1 tsp. hot water
-  - 1/4 tsp. salt
-  - 1.5 cups all-purpose flour, sifted (180g)
-  - 1 cup semi-sweet chocolate chips
+  - 1 tsp vanilla extract
+  - 1/2 tsp baking soda
+  - 1 tsp hot water
+  - 1/4 tsp salt
+  - 1 1/2 Cups all-purpose flour, sifted (180g)
+  - 1 Cup semi-sweet chocolate chips
 instructions:
-  - Preheat oven to 350ºF.
+  - Preheat oven to 350°F.
   - Cream together butter, white sugar, and brown sugar.
   - Beat in egg and vanilla extract.
   - Dissolve baking soda in hot water and add to batter, along with salt.
