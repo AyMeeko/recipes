@@ -3,7 +3,7 @@ name: Ninja Foodi Turkey Breast
 image: /assets/images/ninja-turkey-breast.jpeg
 date: "2022-07-02"
 ingredients:
-  - 1 turkey breast, approx 3 lbs, frozen
+  - 1 boneless turkey breast, approx 3 lbs, frozen
   - 1 Cup water
   - 2 Tbsp melted butter
   - 1 Tbsp garlic and herb seasoning, plus more to taste
