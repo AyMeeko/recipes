@@ -4,40 +4,58 @@
   <h4>{{ recipe.name }}</h5>
 
   <div class="twelve columns">
+    {% if recipe.image %}
     <a href="{{ recipe.original_recipe_link }}">
       <img src="{{ recipe.image | absolute_url }}" role="presentation" />
     </a>
+    {% endif %}
+    {% if recipe.original_recipe_link %}
     <div class="small-text">
       Want to hear the creator's life story? Click <a href="{{ recipe.original_recipe_link }}">here</a>.
     </div>
+    {% endif %}
   </div>
 
   <div class="four columns" id="general-info">
     <table>
       <tbody>
+        {% if recipe.recipe_yield %}
         <tr>
           <th>Yield</th>
           <td>{{ recipe.recipe_yield }}</td>
         </tr>
+        {% endif %}
+        {% if recipe.prep_time %}
         <tr>
           <th>Preparation time</th>
           <td>{{ recipe.prep_time | recipe_pretty_duration | default: "N/A" }}</td>
         </tr>
+        {% endif %}
+        {% if recipe.cook_time %}
         <tr>
           <th>Cook time</th>
           <td>{{ recipe.cook_time | recipe_pretty_duration | default: "N/A" }}</td>
         </tr>
+        {% endif %}
+        {% if recipe.chill_time %}
+        <tr>
+          <th>Chill time</th>
+          <td>{{ recipe.chill_time | recipe_pretty_duration | default: "N/A" }}</td>
+        </tr>
+        {% endif %}
+        {% if recipe.total_time %}
         <tr>
           <th>Total time</th>
           <td>{{ recipe.total_time | recipe_pretty_duration | default: "N/A" }}</td>
         </tr>
+        {% endif %}
       </tbody>
     </table>
   </div>
 
 
   <div class="six columns" id="ingredients">
-    <h5>Ingredients</h2>
+    <h5>Ingredients</h5>
     <ul>
       {% for ingredient in recipe.ingredients %}
       <li>
@@ -49,8 +67,25 @@
     </ul>
   </div>
 
+  {% if recipe.words_of_wisdom %}
+  <div class="twelve columns" id="words_of_wisdom">
+    <h5>Words of Wisdom</h5>
+    {% if recipe.words_of_wisdom.size > 1 %}
+    <ul>
+      {% for word in recipe.words_of_wisdom %}
+      <li>
+        {{ word }}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+      {{ recipe.words_of_wisdom }}
+    {% endif %}
+  </div>
+  {% endif %}
+
   <div class="twelve columns" id="instructions">
-    <h5>Instructions</h2>
+    <h5>Instructions</h5>
     <ol class="custom-counter">
       {% for instruction in recipe.instructions %}
       <li>
