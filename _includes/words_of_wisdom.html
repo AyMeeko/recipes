@@ -1,18 +1,16 @@
 {% assign recipe = include.r %}
 
-<div class="six columns" id="words-of-wisdom">
-  {% if recipe.words_of_wisdom %}
-    <h5>Words of Wisdom</h5>
-    {% if recipe.words_of_wisdom.size > 1 %}
-    <ul>
-      {% for word in recipe.words_of_wisdom %}
-      <li>
-        {{ word }}
-      </li>
-      {% endfor %}
-    </ul>
-    {% else %}
-      {{ recipe.words_of_wisdom }}
-    {% endif %}
+{% if recipe.words_of_wisdom %}
+  <h5>Words of Wisdom</h5>
+  {% if recipe.words_of_wisdom.size > 1 %}
+  <ul>
+    {% for word in recipe.words_of_wisdom %}
+    <li>
+      {{ word }}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+    {{ recipe.words_of_wisdom }}
   {% endif %}
-</div>
+{% endif %}
