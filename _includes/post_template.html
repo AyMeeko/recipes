@@ -3,17 +3,38 @@
 <div class='recipe'>
   <h4>{{ recipe.name }}</h5>
 
-  <div class="twelve columns">
-    {% if recipe.image %}
-    <a href="{{ recipe.original_recipe_link }}">
-      <img src="{{ recipe.image | absolute_url }}" role="presentation" />
-    </a>
-    {% endif %}
-    {% if recipe.original_recipe_link %}
-    <div class="small-text">
-      Want to hear the creator's life story? Click <a href="{{ recipe.original_recipe_link }}">here</a>.
+  <div class="twelve columns" id="instructions">
+    <div class="six columns">
+      {% if recipe.image %}
+      <div class="img_container">
+        <a href="{{ recipe.original_recipe_link }}">
+          <img src="{{ recipe.image | absolute_url }}" role="presentation" />
+        </a>
+      </div>
+      {% endif %}
+      {% if recipe.original_recipe_link %}
+      <div class="small-text">
+        Want to hear the creator's life story? Click <a href="{{ recipe.original_recipe_link }}">here</a>.
+      </div>
+      {% endif %}
     </div>
-    {% endif %}
+
+    <div class="six columns" id="words_of_wisdom">
+      {% if recipe.words_of_wisdom %}
+        <h5>Words of Wisdom</h5>
+        {% if recipe.words_of_wisdom.size > 1 %}
+        <ul>
+          {% for word in recipe.words_of_wisdom %}
+          <li>
+            {{ word }}
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+          {{ recipe.words_of_wisdom }}
+        {% endif %}
+      {% endif %}
+    </div>
   </div>
 
   <div class="four columns" id="general-info">
