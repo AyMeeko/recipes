@@ -1,5 +1,6 @@
 .recipe {
-  font-size: 20px;
+  font-size: 18px;
+  font-family: $body-font;
 
   .post-list {
     margin-top: 5px;
@@ -25,7 +26,10 @@
 
   ul li {
     list-style: circle inside;
-    font-size: 18px;
+  }
+
+  h4 {
+    font-weight: bolder;
   }
 
   .custom-counter {
@@ -66,12 +70,10 @@
 }
 
 #ingredients {
-  label {
-    font-size: 18px;
-  }
+  font-size: 20px;
 }
 
 .instruction-section-name {
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 15px;
 }

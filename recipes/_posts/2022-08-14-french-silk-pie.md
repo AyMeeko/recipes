@@ -2,11 +2,11 @@
 title: French Silk Pie
 image: /assets/images/french_silk_pie.jpeg
 date: "2022-08-14"
-ingredients_section_one_name: For the crust
+ingredients_section_one_name: For the crust&#58;
 ingredients_section_one:
   - 20 classic Oreos
   - 3 Tbsp unsalted butter, melted
-ingredients_section_two_name: For the filling
+ingredients_section_two_name: For the filling&#58;
 ingredients_section_two:
   - 1 1/3 Cup (266 g) granulated sugar
   - 4 large eggs
@@ -15,7 +15,7 @@ ingredients_section_two:
   - 10 Tbsp (142 g) unsalted butter, room temperature
   - 1 1/3 Cup heavy cream
   - 4 tsp powdered sugar
-ingredients_section_three_name: For the topping
+ingredients_section_three_name: For the topping&#58;
 ingredients_section_three:
   - 1 Cup heavy cream
   - 2 Tbsp powdered sugar
@@ -48,6 +48,6 @@ cook_time: 20m
 chill_time: 6h
 total_time: 6h 50m
 layout: post
-categories: [desserts]
+categories: [desserts, lorea]
 original_recipe_link: https://handletheheat.com/french-silk-pie/
 ---

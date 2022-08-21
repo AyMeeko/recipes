@@ -27,6 +27,6 @@ prep_time: 5m
 cook_time: 15m
 total_time: 20m
 layout: post
-categories: [main_courses, side dishes]
+categories: [main_courses, side_dishes, lorea, front_page1]
 original_recipe_link: https://www.gimmesomeoven.com/best-stovetop-mac-cheese/
 ---

@@ -25,6 +25,6 @@ prep_time: 15m
 cook_time: 15m
 total_time: 30m
 layout: post
-categories: [main_courses, side_dishes]
+categories: [side_dishes, lorea, amy]
 original_recipe_link: https://natashaskitchen.com/garlic-and-chive-mashed-potatoes/
 ---

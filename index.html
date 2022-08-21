@@ -3,11 +3,12 @@ layout: default
 title: LoreaGivesGoodHair
 selected_nav: "/"
 ---
-<ul id="recipes-archive" class="posts recipe">
-  {% for post in site.categories.frontpage %}
-  <li class="row">
-    {% include post_template.html r=post %}
-  </li>
-  <hr>
-  {% endfor %}
+{% if site.categories.front_page1.size > 0 %}
+<ul class="posts recipe">
+  {% include front_page.html category=site.categories.front_page1 %}
+  {% include front_page.html category=site.categories.front_page2 %}
+  {% include front_page.html category=site.categories.front_page3 %}
 </ul>
+{% else %}
+    {% include index.html %}
+{% endif %}

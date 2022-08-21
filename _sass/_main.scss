@@ -1,6 +1,6 @@
 body {
   margin-bottom: 40px;
-  font-family: "Lato", sans-serif;
+  font-family: $body-font; //"Lato", sans-serif;
   background-color: $background;
 }
 
@@ -49,4 +49,9 @@ hr {
 
 .columns {
   margin-bottom: 30px;
+}
+
+.header {
+  color: $header_color;
+  font-family: $header_font;
 }

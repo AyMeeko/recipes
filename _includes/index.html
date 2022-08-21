@@ -1,0 +1,48 @@
+<div class="twelve columns">
+  <div class="four columns">
+    <h3 class="header">Main Courses</h3>
+    <ul class="posts recipe">
+      {% for post in site.categories.main_courses %}
+        <div>» <a href="{{ post.url | absolute_url }}">{{ post.title }}</a></div>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="four columns">
+    <h3 class="header">Side Dishes</h3>
+    <ul class="posts recipe">
+      {% for post in site.categories.side_dishes %}
+        <div>» <a href="{{ post.url | absolute_url }}">{{ post.title }}</a></div>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="four columns">
+    <h3 class="header">Desserts</h3>
+    <ul class="posts recipe">
+      {% for post in site.categories.desserts %}
+        <div>» <a href="{{ post.url | absolute_url }}">{{ post.title }}</a></div>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="twelve columns">
+  <div class="six columns">
+    <h3 class="header">Lorea's Favs</h3>
+    <ul class="posts recipe">
+      {% for post in site.categories.lorea %}
+        <div>» <a href="{{ post.url | absolute_url }}">{{ post.title }}</a></div>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="six columns">
+    <h3 class="header">Amy's Favs</h3>
+    <ul class="posts recipe">
+      {% for post in site.categories.amy %}
+        <div>» <a href="{{ post.url | absolute_url }}">{{ post.title }}</a></div>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

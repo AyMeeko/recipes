@@ -63,7 +63,7 @@
     </div>
 
     <div class="seven columns" id="ingredients">
-      <h5>Ingredients</h5>
+      <h5 class="header">Ingredients</h5>
       {% if recipe.ingredients %}
         {% include ingredients.html r=recipe %}
       {% else %}
@@ -73,7 +73,7 @@
   </div>
 
   <div class="twelve columns" id="instructions">
-    <h5>Instructions</h5>
+    <h5 class="header">Instructions</h5>
     {% if recipe.instructions %}
       {% include instructions.html r=recipe %}
     {% else %}

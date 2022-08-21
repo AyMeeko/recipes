@@ -1,7 +1,7 @@
 {% assign recipe = include.r %}
 
 {% if recipe.words_of_wisdom %}
-  <h5>Words of Wisdom</h5>
+  <h5 class="header">Words of Wisdom</h5>
   {% if recipe.words_of_wisdom.size > 1 %}
   <ul>
     {% for word in recipe.words_of_wisdom %}

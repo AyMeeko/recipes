@@ -1,0 +1,10 @@
+{% assign category = include.category %}
+
+{% if category.size > 0 %}
+  {% for post in category %}
+  <li class="row">
+    {% include post_template.html r=post %}
+  </li>
+  <hr>
+  {% endfor %}
+{% endif %}
