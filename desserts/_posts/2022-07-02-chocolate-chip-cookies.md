@@ -1,5 +1,5 @@
 ---
-name: Chocolate Chip Cookies
+title: Chocolate Chip Cookies
 image: /assets/images/chocolatechipcookies.png
 date: "2022-07-02"
 ingredients:

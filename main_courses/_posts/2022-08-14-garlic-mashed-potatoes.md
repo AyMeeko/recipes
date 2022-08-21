@@ -1,5 +1,5 @@
 ---
-name: Garlic Mashed Potatoes
+title: Garlic Mashed Potatoes
 image: /assets/images/garlic-mashed-potatoes.jpeg
 date: "2022-08-14"
 ingredients:

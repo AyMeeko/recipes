@@ -1,5 +1,5 @@
 ---
-name: Ninja Foodi Turkey Breast
+title: Ninja Foodi Turkey Breast
 image: /assets/images/ninja-turkey-breast.jpeg
 date: "2022-07-02"
 ingredients:

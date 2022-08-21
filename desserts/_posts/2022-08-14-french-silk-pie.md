@@ -1,5 +1,5 @@
 ---
-name: French Silk Pie
+title: French Silk Pie
 image: /assets/images/french_silk_pie.jpeg
 date: "2022-08-14"
 ingredients_section_one_name: For the crust

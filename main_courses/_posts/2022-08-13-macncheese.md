@@ -1,5 +1,5 @@
 ---
-name: One Pot Mac'n'Cheese
+title: One Pot Mac'n'Cheese
 image: /assets/images/macncheese.jpg
 date: "2022-08-13"
 words_of_wisdom:

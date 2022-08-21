@@ -1,5 +1,5 @@
 ---
-name: Pressure Cooker Pulled Chicken
+title: Pressure Cooker Pulled Chicken
 image: /assets/images/pressure_cooker_chicken.jpg
 date: "2022-08-13"
 words_of_wisdom:
@@ -22,7 +22,7 @@ instructions:
   - Close pressure cooker lid and cook for 12 minutes on high pressure. (This timing will vary based on the thickness of your chicken breasts, increase up to 20 minutes for larger/thicker breasts.)
   - Once cooking is complete, leave to naturally release pressure for 10 minutes, then turn the release knob to "Vent" to quick-release remaining pressure.
   - Once depressurized, remove breasts and shred using 2 forks to maintain thicker pieces of chicken.
-  - Whisk the remaining cream cheese mixture until evenly combined, then add cheese to melt. 
+  - Whisk the remaining cream cheese mixture until evenly combined, then add cheese to melt.
   - Add shredded chicken back into pot, mix until chicken is evenly coated in cheese mixture.
   - Add bacon and green onions, mix to combine
   - Serve on toasted buns, or over pasta or rice.
