@@ -1,0 +1,34 @@
+{% assign recipe = include.r %}
+
+{% if recipe.instructions_section_one %}
+<label class="instruction-section-name">{{ recipe.instructions_section_one_name }}</label>
+<ol class="custom-counter">
+  {% for instruction in recipe.instructions_section_one %}
+  <li>
+    {{ instruction }}
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}
+
+{% if recipe.instructions_section_two %}
+<label class="instruction-section-name">{{ recipe.instructions_section_two_name }}</label>
+<ol class="custom-counter">
+  {% for instruction in recipe.instructions_section_two %}
+  <li>
+    {{ instruction }}
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}
+
+{% if recipe.instructions_section_three %}
+<label class="instruction-section-name">{{ recipe.instructions_section_three_name }}</label>
+<ol class="custom-counter">
+  {% for instruction in recipe.instructions_section_three %}
+  <li>
+    {{ instruction }}
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}

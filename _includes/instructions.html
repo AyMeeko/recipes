@@ -1,0 +1,9 @@
+{% assign recipe = include.r %}
+
+<ol class="custom-counter">
+  {% for instruction in recipe.instructions %}
+  <li>
+    {{ instruction }}
+  </li>
+  {% endfor %}
+</ol>

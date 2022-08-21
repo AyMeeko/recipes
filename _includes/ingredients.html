@@ -1,0 +1,9 @@
+{% assign recipe = include.r %}
+
+<ul>
+  {% for ingredient in recipe.ingredients %}
+  <li>
+    {{ ingredient }}
+  </li>
+  {% endfor %}
+</ul>

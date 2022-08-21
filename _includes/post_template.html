@@ -19,22 +19,7 @@
       {% endif %}
     </div>
 
-    <div class="six columns" id="words_of_wisdom">
-      {% if recipe.words_of_wisdom %}
-        <h5>Words of Wisdom</h5>
-        {% if recipe.words_of_wisdom.size > 1 %}
-        <ul>
-          {% for word in recipe.words_of_wisdom %}
-          <li>
-            {{ word }}
-          </li>
-          {% endfor %}
-        </ul>
-        {% else %}
-          {{ recipe.words_of_wisdom }}
-        {% endif %}
-      {% endif %}
-    </div>
+    {% include words_of_wisdom.html r=recipe %}
   </div>
 
   <div class="four columns" id="general-info">
@@ -74,46 +59,22 @@
     </table>
   </div>
 
-
   <div class="six columns" id="ingredients">
     <h5>Ingredients</h5>
-    <ul>
-      {% for ingredient in recipe.ingredients %}
-      <li>
-        <label>
-          {{ ingredient }}
-        </label>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  {% if recipe.words_of_wisdom %}
-  <div class="twelve columns" id="words_of_wisdom">
-    <h5>Words of Wisdom</h5>
-    {% if recipe.words_of_wisdom.size > 1 %}
-    <ul>
-      {% for word in recipe.words_of_wisdom %}
-      <li>
-        {{ word }}
-      </li>
-      {% endfor %}
-    </ul>
+    {% if recipe.ingredients %}
+      {% include ingredients.html r=recipe %}
     {% else %}
-      {{ recipe.words_of_wisdom }}
+      {% include multi_part_ingredients.html r=recipe %}
     {% endif %}
   </div>
-  {% endif %}
 
   <div class="twelve columns" id="instructions">
     <h5>Instructions</h5>
-    <ol class="custom-counter">
-      {% for instruction in recipe.instructions %}
-      <li>
-        {{ instruction }}
-      </li>
-      {% endfor %}
-    </ol>
+    {% if recipe.instructions %}
+      {% include instructions.html r=recipe %}
+    {% else %}
+      {% include multi_part_instructions.html r=recipe %}
+    {% endif %}
   </div>
 
 </div>

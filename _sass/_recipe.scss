@@ -25,10 +25,7 @@
 
   ul li {
     list-style: circle inside;
-  }
-
-  ul li label {
-    display: inline-block;
+    font-size: 18px;
   }
 
   .custom-counter {
@@ -63,7 +60,18 @@
   border-right: 1px solid $gen_info_right_border;
 }
 
-#words_of_wisdom {
+#words-of-wisdom {
   padding-left: 25px;
   font-size: 16px;
+}
+
+#ingredients {
+  label {
+    font-size: 18px;
+  }
+}
+
+.instruction-section-name {
+  font-size: 18px;
+  padding-top: 15px;
 }
