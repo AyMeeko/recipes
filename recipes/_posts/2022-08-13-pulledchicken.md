@@ -31,6 +31,6 @@ prep_time: 12m
 cook_time: 30m
 total_time: 42m
 layout: post
-categories: [main_courses, front_page2]
+categories: [main_courses]
 original_recipe_link: https://www.simplyhappyfoodie.com/instant-pot-crack-chicken/
 ---
