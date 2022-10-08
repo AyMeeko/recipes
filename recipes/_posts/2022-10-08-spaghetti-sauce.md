@@ -28,5 +28,6 @@ recipe_yield: 6-8 servings
 prep_time: 10m
 cook_time: 50m
 total_time: 1h
+categories: [main_courses, lorea]
 layout: post
 ---
