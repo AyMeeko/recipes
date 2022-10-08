@@ -1,3 +1,4 @@
+---
 title: Lorea's Spaghetti Sauce
 image: 
 date: "2022-10-08"
@@ -28,3 +29,4 @@ prep_time: 10m
 cook_time: 50m
 total_time: 1h
 layout: post
+---
