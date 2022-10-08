@@ -22,7 +22,7 @@ instructions:
   - In a large pot, add tomato puree, past, water, and wine and stir until combined. Sauce will thicken and condense the longer it is cooked, so add more water or wine as desired to thin to preference. Add Italian seasoning and crushed garlic cloves. Add lid and cook over low heat, stirring occassionally.
   - Drizzle a pre-heated skillet with olive oil over medium-high heat. Add ground beef and cook until browned. Drain. If adding veggies, do so now and cook until softened.
   - Add ground beef to tomato sauce and simmer on low heat from 30-60 minutes.
-  - \* At this point, you can slow cook sauce for as long as a few hours prior to serving.
+  - * At this point, you can slow cook sauce for as long as a few hours prior to serving.
   - If adding bacon, chop bacon and cook in skillet until crispy. Add to sauce just before serving.
 recipe_yield: 6-8 servings
 prep_time: 10m
