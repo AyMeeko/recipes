@@ -1,5 +1,5 @@
 ---
-title: Chocolate Chip Cookies
+title: Amy's Chocolate Chip Cookies
 image: /assets/images/chocolatechipcookies.png
 date: "2022-07-02"
 ingredients:
@@ -27,6 +27,6 @@ prep_time: 20m
 cook_time: 10m
 total_time: 1h
 layout: post
-categories: [desserts, amy]
+categories: desserts
 original_recipe_link: https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/
 ---

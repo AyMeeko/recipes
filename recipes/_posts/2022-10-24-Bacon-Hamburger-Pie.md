@@ -1,6 +1,6 @@
 ---
-name: Bacon Hamburger Pie
-image: 
+title: Bacon Hamburger Pie
+image:
 date: "2022-10-24"
 ingredients:
   - 1 lb lean ground beef

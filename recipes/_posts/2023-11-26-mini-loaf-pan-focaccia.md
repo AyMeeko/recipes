@@ -1,5 +1,5 @@
 ---
-name: Mini Loaf Pan Focaccia
+title: Mini Loaf Pan Focaccia
 date: "2023-11-26"
 ingredients:
   - 120g all purpose flour

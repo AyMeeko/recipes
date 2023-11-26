@@ -1,5 +1,5 @@
 ---
-name: Lasagna Soup
+title: Lasagna Soup
 image:
 date: "2022-12-29"
 ingredients:
