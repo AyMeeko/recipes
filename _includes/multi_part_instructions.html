@@ -32,3 +32,14 @@
   {% endfor %}
 </ol>
 {% endif %}
+
+{% if recipe.instructions_section_four %}
+<label class="instruction-section-name">{{ recipe.instructions_section_four_name }}</label>
+<ol class="custom-counter">
+  {% for instruction in recipe.instructions_section_four %}
+  <li>
+    {{ instruction }}
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}
